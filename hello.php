@@ -15,8 +15,6 @@
       //this is mycomment
       echo "<table border=1><tr><th>สินค้า</th><th>รายละเอียด</th></tr>";
       $name = "BENN's SHOP";
-      //echo "<p style='font-size:30px'>Click the button below to show the product at $name<br/></p>";
-      //echo "<input type='button' value='All products'>";
       echo "<p style='font-size:30px'>Welcome to..  $name<br/></p>";
       $setColumn=3;
       for($i=1;$i<11;$i++){
@@ -29,6 +27,7 @@
         'Tai-Hao T15 Dark Blood Black+Red PBT Double Shot', 'Tai-Hao T23 The Forest Blue PBT Backlit', 
         'Tai-Hao T4 England Blue ABS Double Shot'];
         $price = ['','1790','1990','1790','1390','1190','1990','1990','1590','1990','1190'];
+        $imgg = ['','01','02','03','04','05','06','07','08','09','10'];
         echo "<tr><td></td><td><p style='color:rgb($r,$g,$b)'>ID $i $product[$i]<br/>Price $$price[$i]<br/></p></td>";
       }
       echo "</table>";
